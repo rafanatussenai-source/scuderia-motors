@@ -600,19 +600,19 @@ body {
   font-family: Arial, sans-serif;
   color: #333333;
 }
- 
+
 /* ===================== RESPONSIVO / MOBILE ===================== */
- 
+
 @media (max-width: 768px) {
- 
+
   .header {
     padding: 15px 20px;
   }
- 
+
   .menu-toggle {
     display: block;
   }
- 
+
   .nav-menu ul {
     display: none;
     flex-direction: column;
@@ -626,106 +626,106 @@ body {
     padding: 20px;
     gap: 18px;
   }
- 
+
   .nav-menu ul.active {
     display: flex;
   }
- 
+
   .hero {
     height: 60vh;
     padding: 0 20px;
   }
- 
+
   .hero-content h1 {
     font-size: 30px;
   }
- 
+
   .hero-content p {
     font-size: 15px;
   }
- 
+
   .about,
   .cars,
   .contact {
     padding: 50px 20px;
   }
- 
+
   .about-container {
     flex-direction: column;
   }
- 
+
   .about-text h2,
   .cars h2,
   .contact-text h2 {
     font-size: 26px;
   }
- 
+
   .about-stats {
     flex-wrap: wrap;
     gap: 25px;
   }
- 
+
   .cars-grid {
     grid-template-columns: 1fr;
   }
- 
+
   .contact-container {
     flex-direction: column;
     gap: 40px;
   }
- 
+
   .map-container {
     margin-top: 30px;
   }
- 
+
   .map-frame {
     height: 220px;
   }
- 
+
   .detail-section {
     padding: 40px 20px;
     flex-direction: column;
   }
- 
+
   .detail-info h1 {
     font-size: 26px;
   }
 }
- 
+
 @media (max-width: 420px) {
- 
+
   .logo {
     font-size: 20px;
   }
- 
+
   .hero-content h1 {
     font-size: 24px;
   }
- 
+
   .hero-btn,
   .detail-cta {
     padding: 12px 24px;
     font-size: 14px;
   }
 }
- 
- 
+
+
 /* ===================== RODAPÉ / REDES SOCIAIS ===================== */
- 
+
 .footer {
   background-color: #0a0a0a;
   border-top: 4px solid #e10600;
   padding: 35px 40px;
   text-align: center;
 }
- 
+
 .footer-socials {
   display: flex;
   justify-content: center;
   gap: 22px;
   margin-bottom: 18px;
 }
- 
+
 .footer-socials a {
   color: #ffffff;
   display: flex;
@@ -737,28 +737,29 @@ body {
   border-radius: 50%;
   transition: color 0.3s ease, border-color 0.3s ease, transform 0.2s ease;
 }
- 
-.footer-socials a svg,
-.footer-socials a i {
-  font-size: 18px;
+
+.footer-socials a svg {
+  width: 20px;
+  height: 20px;
 }
- 
+
 .footer-socials a:hover {
   color: #e10600;
   border-color: #e10600;
   transform: translateY(-3px);
 }
- 
+
 .footer-text {
   font-family: Arial, sans-serif;
   font-size: 13px;
   color: #888888;
   margin: 0;
 }
- 
+
 @media (max-width: 768px) {
   .footer {
     padding: 30px 20px;
   }
+}
 }
  
