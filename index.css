@@ -709,3 +709,56 @@ body {
   }
 }
  
+ 
+/* ===================== RODAPÉ / REDES SOCIAIS ===================== */
+ 
+.footer {
+  background-color: #0a0a0a;
+  border-top: 4px solid #e10600;
+  padding: 35px 40px;
+  text-align: center;
+}
+ 
+.footer-socials {
+  display: flex;
+  justify-content: center;
+  gap: 22px;
+  margin-bottom: 18px;
+}
+ 
+.footer-socials a {
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 42px;
+  height: 42px;
+  border: 2px solid #ffffff;
+  border-radius: 50%;
+  transition: color 0.3s ease, border-color 0.3s ease, transform 0.2s ease;
+}
+ 
+.footer-socials a svg,
+.footer-socials a i {
+  font-size: 18px;
+}
+ 
+.footer-socials a:hover {
+  color: #e10600;
+  border-color: #e10600;
+  transform: translateY(-3px);
+}
+ 
+.footer-text {
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+  color: #888888;
+  margin: 0;
+}
+ 
+@media (max-width: 768px) {
+  .footer {
+    padding: 30px 20px;
+  }
+}
+ 
