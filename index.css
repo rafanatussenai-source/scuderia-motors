@@ -601,6 +601,8 @@ body {
   color: #333333;
 }
  
+/* ===================== RESPONSIVO / MOBILE ===================== */
+ 
 @media (max-width: 768px) {
  
   .header {
@@ -706,3 +708,4 @@ body {
     font-size: 14px;
   }
 }
+ 
