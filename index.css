@@ -441,6 +441,24 @@ body {
   transform: translateY(-2px);
 }
 
+.contact-form-buttons {
+  display: flex;
+  gap: 14px;
+}
+.contact-form-buttons button {
+  flex: 1;
+}
+.btn-clear {
+  background-color: transparent;
+  color: #0a0a0a;
+  border: 2px solid #0a0a0a !important;
+}
+.btn-clear:hover {
+  background-color: #0a0a0a;
+  color: #ffffff;
+  transform: translateY(-2px);
+}
+
 .map-container {
   max-width: 1200px;
   margin: 50px auto 0;
