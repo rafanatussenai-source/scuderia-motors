@@ -499,6 +499,12 @@ body {
   border: 1px solid #e10600;
 }
 
+.form-message.info {
+  background-color: #eef4ff;
+  color: #1a4fbf;
+  border: 1px solid #1a4fbf;
+}
+
  
 .detail-header {
   background-color: #0a0a0a;
@@ -780,4 +786,3 @@ body {
   }
 }
 }
- 
