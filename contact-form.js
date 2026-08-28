@@ -19,6 +19,12 @@ document.addEventListener('DOMContentLoaded', function () {
 
       submitButton.disabled = false;
       submitButton.textContent = 'Enviar Mensagem';
+
+      // Some a mensagem sozinha depois de alguns segundos
+      setTimeout(function () {
+        messageBox.classList.remove('show', 'success');
+      }, 5000);
     }, 900);
   });
 });
+ 
