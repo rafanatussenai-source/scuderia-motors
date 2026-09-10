@@ -274,6 +274,43 @@ body {
   margin-bottom: 45px;
 }
  
+.cars-search {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 35px;
+}
+
+.cars-search-input {
+  width: 100%;
+  max-width: 420px;
+  padding: 14px 18px;
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+  color: #ffffff;
+  background-color: #1a1a1a;
+  border: 2px solid #333333;
+  border-radius: 6px;
+  outline: none;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.cars-search-input::placeholder {
+  color: #888888;
+}
+
+.cars-search-input:focus {
+  border-color: #e10600;
+  box-shadow: 0 0 0 3px rgba(225, 6, 0, 0.25);
+}
+
+.no-cars-message {
+  font-family: Arial, sans-serif;
+  color: #aaaaaa;
+  font-size: 16px;
+  text-align: center;
+  padding: 40px 0;
+}
+
 .cars-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
