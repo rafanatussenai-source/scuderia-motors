@@ -68,8 +68,12 @@
     <div class="cars-container">
       <h2>NOSSOS <span class="cars-highlight">VEÍCULOS</span></h2>
       <p class="cars-subtitle">Carros selecionados, revisados e prontos para rodar.</p>
+
+      <div class="cars-search">
+        <input type="text" id="carSearchInput" class="cars-search-input" placeholder="Buscar por modelo, marca ou ano...">
+      </div>
  
-      <div class="cars-grid">
+      <div class="cars-grid" id="carsGrid">
  
         <a href="carro-fiat-argo.html" target="_blank" class="car-card">
           <img src="https://promotive-public-images.s3.sa-east-1.amazonaws.com/a_fotos_vehiculos/m_fiat%20argo%2023.jpg" alt="Fiat Argo">
@@ -252,6 +256,8 @@
         </a>
  
       </div>
+
+      <p id="noCarsMessage" class="no-cars-message" hidden>Nenhum veículo encontrado para essa busca.</p>
     </div>
   </section>
  
@@ -336,5 +342,6 @@
   <script src="script.js"></script>
   <script src="contact-form.js"></script>
   <script src="mobile-menu.js"></script>
+  <script src="car-search.js"></script>
 </body>
 </html>
